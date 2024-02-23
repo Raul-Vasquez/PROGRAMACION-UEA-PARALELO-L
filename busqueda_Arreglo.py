@@ -8,7 +8,7 @@ matriz = [
 
       ]
 # valor que estamos buscando 1000
-valorBuscado = 1000
+valorBuscado = 5
 
 # incializamos variables para rastrear la posicion del valor
 filaEncontrada = -1
