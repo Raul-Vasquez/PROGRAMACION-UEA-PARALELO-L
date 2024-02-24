@@ -4,8 +4,9 @@ arregloBidimensional = [
                         [4,0,5],
                         [3,4,5]
                     ]
-# Impresion del arreglo oroginal
-print (f"Valores Originales: \n{arregloBidimensional}")
+for fila in range (len(arregloBidimensional)):
+    for columna in range (len(arregloBidimensional)):
+        print (arregloBidimensional [fila][columna])
 
 # metododo sort para una organizacion ascendente
 arregloBidimensional.sort()
@@ -16,3 +17,5 @@ print (f"Organizacion Ascendente: \n{arregloBidimensional}")
 arregloBidimensional.sort( reverse = True)
 print("\n__________________________________________________")
 print (f"Organizacion Descendente: \n{arregloBidimensional}")
+
+
