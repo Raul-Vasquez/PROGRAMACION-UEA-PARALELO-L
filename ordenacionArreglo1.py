@@ -5,11 +5,14 @@ arregloBidimensional = [
                         [3,4,5]
                     ]
 for fila in range (len(arregloBidimensional)):
-    for columna in range (len(arregloBidimensional)):
+    for columna in range (len(arregloBidimensional[fila])):
         print (arregloBidimensional [fila][columna])
 
 # metododo sort para una organizacion ascendente
-arregloBidimensional.sort()
+
+
+arreglo_Metodo = arregloBidimensional
+arreglo_Metodo.sort()
 print("\n__________________________________________________")
 print (f"Organizacion Ascendente: \n{arregloBidimensional}")
 
