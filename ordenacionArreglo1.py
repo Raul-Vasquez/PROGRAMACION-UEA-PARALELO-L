@@ -1,24 +1,33 @@
 # Ordenar el arreglo Bidimensional de 3 filas por 3 columnas
 arregloBidimensional = [
-                        [2,5,8],
+                        [2,8,5],
                         [4,0,5],
                         [3,4,5]
                     ]
 for fila in range (len(arregloBidimensional)):
     for columna in range (len(arregloBidimensional[fila])):
-        print (arregloBidimensional [fila][columna])
+        if columna == len (arregloBidimensional[fila])-1:
+            print (arregloBidimensional[fila][columna])
 
-# metododo sort para una organizacion ascendente
+        else:
+
+            if arregloBidimensional [fila][columna] > arregloBidimensional [fila][columna +1]:
+                               # [0]     [0] >                           [0]     [1]
+                                    #2                                        8
+                               # [0]     [1] >                           [0]     [2]
+                                   # 8                                        5
+                varTemporal = arregloBidimensional [fila][columna]
+                arregloBidimensional [fila][columna] =  arregloBidimensional [fila][columna + 1]
+            # if arregloBidimensional [fila][columna+1]:
+
+                arregloBidimensional [fila][columna +1] = varTemporal
+                print (arregloBidimensional [fila][columna])
+                print (arregloBidimensional [fila][columna+1])
+            else:
+                print (arregloBidimensional [fila][columna])
 
 
-arreglo_Metodo = arregloBidimensional
-arreglo_Metodo.sort()
-print("\n__________________________________________________")
-print (f"Organizacion Ascendente: \n{arregloBidimensional}")
 
-# metododo sort para una organizacion descendente
-arregloBidimensional.sort( reverse = True)
-print("\n__________________________________________________")
-print (f"Organizacion Descendente: \n{arregloBidimensional}")
+
 
 
