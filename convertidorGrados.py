@@ -1,5 +1,4 @@
-def
-    convertidor = (grados_centigrados):
+def convertidor  (grados_centigrados):
     farengei = (9*(grados_centigrados-32))/5
     kelvin = grados_centigrados + 273.15
     return farengei, kelvin
