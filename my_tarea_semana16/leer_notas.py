@@ -10,7 +10,7 @@ print (nota2)
 print (nota3)
 notas.close()
 
-# Funcion la leer otdo el archivo
+# CONTENIDO UTLIZANDO READ()
 print("-----------------------------------")
 print("-----------------------------------")
 print ("\nContenido completo utilizando read(): ")
