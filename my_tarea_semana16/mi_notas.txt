@@ -1,0 +1,4 @@
+Nombre: Raul Vasquez Lascano
+Matematica: 9.50
+Relidad Nacional: 10
+Fundamentos de Programacion 10

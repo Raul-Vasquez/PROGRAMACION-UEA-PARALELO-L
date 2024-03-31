@@ -1,0 +1,20 @@
+# funcion para aperturar un archivo
+notas = open("mi_notas.txt", "r")
+nombre = notas.readline()
+nota1 = notas.readline()
+nota2 = notas.readline()
+nota3 = notas.readline()
+print(nombre)
+print (nota1)
+print (nota2)
+print (nota3)
+notas.close()
+
+# Funcion la leer otdo el archivo
+print("-----------------------------------")
+print("-----------------------------------")
+print ("\nContenido completo utilizando read(): ")
+uea = open("mi_notas.txt", "r")
+estudiante = uea.read()
+print (estudiante)
+uea.close()

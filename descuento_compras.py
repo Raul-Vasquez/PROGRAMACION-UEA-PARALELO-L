@@ -1,7 +1,8 @@
 #Trabajao de la semana  14
 # calcule el descuento en compras en función del monto total de la compra y mostrar el monto final a pagar
 # Parámetros y Retorno de Valores en Funciones
-def calcularDescuento (montoTotal, xcentajeDescuento=10):
+def calcularDescuento (montoTotal):
+    xcentajeDescuento = 10
     descuento =  montoTotal * (xcentajeDescuento/100)
     return descuento
 
@@ -22,3 +23,11 @@ montoFinal1= articulo1-descuento2
 print ('Monto Descontado: ', descuento2, "%")
 print('Valor Total a pagar: ', "$", montoFinal1)
 
+# Ejemplo 3
+print ("\n-----------------------------")
+print ("Objeto 2 descuento del 20%")
+articulo2= 450
+descuento3 = calcularDescuento (articulo2)
+montoFinal2 = articulo2 - descuento3
+print ('Monto Descontado: ', descuento3, "%")
+print('Valor Total a pagar: ', "$", montoFinal2)
