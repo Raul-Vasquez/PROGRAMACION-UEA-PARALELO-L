@@ -1,4 +1,7 @@
 # funcion para aperturar un archivo
+
+print ("Contenido completo utilizando readline(): ")
+print("-----------------------------------")
 notas = open("mi_notas.txt", "r")
 nombre = notas.readline()
 nota1 = notas.readline()
